@@ -51,7 +51,9 @@ body {
 }
 
 header {
-  background-color: #1e1c21;
+  background-color: #03112B;
+
+  /* background-color: #1e1c21; */
 }
 header .logo {
   /* border: 1px solid red; */
@@ -67,9 +69,10 @@ header .logo {
 header .logo:hover {
   background-color: transparent;
   /* border: 1px solid #f9f5f6; */
-  border: 0.5px solid wheat;
+  border: 0.5px solid #fcfc;
   cursor: pointer;
-  transition: 0.7s;
+  /* transition: 0.7s; */
+  transition: transform 0.4s;
 }
 header .menu {
   display: flex;
@@ -82,7 +85,7 @@ header .menu {
 
 header .menu a {
   font-family: "Roboto-Regular";
-  color: wheat;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -103,12 +106,12 @@ header nav {
 }
 
 
-#Part1 {
+#apresentacao {
   background: white;
   margin-bottom: 3px;
 }
 
-#Principal {
+#apresent_1 {
   display: flex;
 }
 
@@ -116,13 +119,13 @@ header nav {
   width: 1430px;
   height: 400px;
 }
-#Perfil {
+#profil {
   position: relative;
   bottom: 140px;
   left: 235px;
   border-radius: 70%;
 }
-#Perfil:hover {
+#profil:hover {
   background-color: transparent;
   /* border: 1px solid #f9f5f6; */
   border: 2px solid wheat;
@@ -130,7 +133,7 @@ header nav {
   transition: 0.7s;
 }
 
-#Nombre {
+#name {
   font-size: 50px;
   font-family: Roboto-Regular;
   color: white;
@@ -142,7 +145,7 @@ header nav {
 }
 
 
-#Pro {
+#res {
   font-size: 14px;
   font-family: Roboto-Regular;
   color: white;
@@ -157,7 +160,7 @@ span {
   color: #f9004d;
 }
 
-#uno {
+#li {
   position: absolute;
   left: 250px;
   top: 550px;
@@ -165,12 +168,17 @@ span {
   border-radius: 20px;
   background: none;
 }
-#uno:hover {
+#li:hover {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
+  /* background-color: transparent; */
+  border: 1px solid #f9004d;
+  /* cursor: pointer; */
+  transition: 0.7s;
+  border-radius: 90%;
 }
-#dos {
+#gui {
   position: absolute;
   left: 330px;
   top: 580px;
@@ -178,13 +186,18 @@ span {
   border-radius: 20px;
   background: none;
 }
-#dos:hover {
+#gui:hover {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
+  /* background-color: transparent; */
+  border: 1px solid #f9004d;
+  /* cursor: pointer; */
+  transition: 0.7s;
+  border-radius: 90%;
 }
 
-#tres {
+#faceb {
   position: absolute;
   left: 410px;
   top: 550px;
@@ -192,13 +205,18 @@ span {
   border-radius: 20px;
   background: none;
 }
-#tres:hover {
+#faceb:hover {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
+  /* background-color: transparent; */
+  border: 1px solid #f9004d;
+  /* cursor: pointer; */
+  transition: 0.7s;
+  border-radius: 90%;
 }
 
-#Prepa {
+#aboutMe {
   width: 700px;
   position: absolute;
   top: 600px;
@@ -210,13 +228,13 @@ span {
 }
 
 
-#TextoF h1 {
+#rodape_1 h1 {
   font-weight: lighter;
   padding-bottom: 20px;
   color: #ffffff;
 }
 
-#Ola {
+#greeting {
   text-align: left;
   position: absolute;
   top: 533px;
@@ -228,64 +246,66 @@ span {
 
 /*  width: 1430px;
   height: 400px; */
-#Part2 {
+#formacao {
   position: absolute;
-  background: #03112b;
+  background: #27273C;
   margin-top: 280px;
   width: 1430px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-left: 150px;
   font-family: Roboto-Regular;
-  color: wheat;
+  color: white;
 }
-#Part2 h1 {
+#formacao h1 {
   padding-bottom: 30px;
   font-size: 35px;
   font-weight: lighter;
 }
 
-#Part2 p {
+#formacao p {
   padding-left: 34px;
   font-size: 13px;
+  color: #fcfc;
 }
 
-#Part2 h4 {
+#formacao h4 {
   padding-left: 34px;
   font-size: 21px;
   /* border-left: 9px solid wheat; */
   border-left: 9px solid #f9004d;
 }
 
-.Data {
+.tempo {
   padding-top: 10px;
 }
 
 /* width: 1430px;
   height: 400px; */
-#Part3 {
-  background: #03112b;
+#experiencia {
+  background: #27273C;
   margin-top: 600px;
   width: 1430px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-left: 150px;
-  font-family: Roboto-Regular;
-  color: wheat;
+  font-family:  Roboto-Regular;
+  color: white;
 }
 
-#Part3 h1 {
+#experiencia h1 {
   padding-bottom: 30px;
   font-size: 35px;
   font-weight: lighter;
 }
 
-#Part3 p {
-  padding-left: 34px;
+#experiencia p {
+   padding-left: 34px;
   font-size: 13px;
+  color: #fcfc;
 }
 
-#Part3 h4 {
+#experiencia h4 {
   padding-left: 34px;
   font-size: 21px;
   padding-bottom: 10px;
@@ -315,8 +335,10 @@ span {
   min-height: 400px;
 }
 
+
+
 .card {
-  height: 365px;
+  height: 325px;
   width: 335px;
   padding: 20px 35px;
   /* background: #191919; */
@@ -326,6 +348,15 @@ span {
   position: relative;
   overflow: hidden;
   text-align: center;
+}
+
+.box .card:hover {
+  /* background-color:transparent; */
+  border: 1px solid #f9004d;
+  /* border: 0.5px solid wheat; */
+  cursor: pointer;
+  color: #27273c;
+  transition: 0.4s;
 }
 
 .card i {
@@ -340,8 +371,9 @@ h5 {
   font-size: 23px;
   margin-bottom: 15px;
 }
-.pra p {
+.meusproj p {
   color: #fcfc;
+  /* color: #FFFFFF; */
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
@@ -362,3 +394,135 @@ h5 {
   border: 2px solid #f9004d;
   cursor: pointer;
 }
+
+.rodape_1 {
+  width: 398px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.rodape_1 p {
+  padding-bottom: 20px;
+  color: white;
+}
+
+#rodape {
+  display: flex;
+  padding-left: 150px;
+  font-family: Roboto-Regular;
+  background: #03112B;
+}
+.rodape_1 img {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.rodape_1 #fcbk:hover{
+  background-color: transparent;
+  border: 1px solid #1977F3;
+  cursor: pointer;
+  transition: 0.7s;
+  border-radius: 90%;
+
+}
+.rodape_1 #inst:hover{
+  background-color: transparent;
+  border: 1px solid #f9004d;
+  cursor: pointer;
+  transition: 0.7s;
+  border-radius: 90%;
+
+}
+.rodape_1 #wats:hover{
+  background-color: transparent;
+  border: 1px solid #f9004d;
+  cursor: pointer;
+  transition: 0.7s;
+  border-radius: 90%;
+
+}
+
+#formul {
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.rodape_1 h1 {
+  font-weight: lighter;
+  padding-bottom:  10px;
+  color: white;
+}
+
+#formul h4 {
+  font-size: 13px;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+
+#formul input {
+  width: 398px;
+  border-radius: 10px;
+}
+
+#msg {
+  height: 133px;
+  border-radius: 10px;
+}
+.btn {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+ /* top:inherit; */
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+/* BREAKPOINTS */
+    /* Desktop */
+
+    @media screen and (min-width: 992px) {
+      .container_grid{
+          max-width: 900px;
+          margin: 0 auto;
+          /* border: 1px solid sienna; */
+      }
+      h1{
+          font-size: 24px;
+
+      }
+      p{
+          font-size: 16px;
+      }
+
+      
+  }
+  
+  /* BREAKPOINTS */
+  /* Notebooks ou telas largas */
+
+  @media screen and (min-width: 1200px) {
+      body{
+          /* background-color: sienna; */
+      }
+      
+
+      
+  }
+
+  /* BREAKPOINTS */
+  /* Telas full hd (1920px)*/
+  @media screen and (min-width: 1440px) {
+      
+
+      
+  }
+
