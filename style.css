@@ -22,11 +22,13 @@
 * {
   margin: 0;
   padding: 0;
+  /* font-family: sans-serif; */
   box-sizing: border-box;
 }
 
 body {
   font-family: Roboto-Regular;
+  background-color: #353B5D;
 }
 
 /* Inicio de cabeçalho */
@@ -39,12 +41,13 @@ body {
 
 /* Cabeçalho */
 .header-flex {
-  /*flex-xontainer */
+  /*flex-container */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* align-items: center; */
+  align-items: center;
   height: 85px;
+  /* width: 100%; */
 }
 
 header {
@@ -54,11 +57,19 @@ header .logo {
   /* border: 1px solid red; */
   /* width: 280px; */
   top: 30px;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   /* left: 563px; */
   border-radius: 80%;
-  opacity: 100%;
+  opacity: 90%;
+}
+
+header .logo:hover {
+  background-color: transparent;
+  /* border: 1px solid #f9f5f6; */
+  border: 0.5px solid wheat;
+  cursor: pointer;
+  transition: 0.7s;
 }
 header .menu {
   display: flex;
@@ -70,16 +81,27 @@ header .menu {
 }
 
 header .menu a {
-  font-family: "Roboto-Light";
-  color: white;
+  font-family: "Roboto-Regular";
+  color: wheat;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+header .menu a:hover {
+  background-color: transparent;
+  /* border: 1px solid #f9f5f6; */
+  /* border: 0.5px solid wheat; */
+  cursor: pointer;
+  /* transition: 0.5s; */
+  color: #f9004d;
+  transition: 0.5s;
 }
 
 header nav {
   display: flex;
   padding-right: 40px;
 }
+
 
 #Part1 {
   background: white;
@@ -98,57 +120,245 @@ header nav {
   position: relative;
   bottom: 140px;
   left: 235px;
+  border-radius: 70%;
+}
+#Perfil:hover {
+  background-color: transparent;
+  /* border: 1px solid #f9f5f6; */
+  border: 2px solid wheat;
+  cursor: pointer;
+  transition: 0.7s;
 }
 
 #Nombre {
-  font-size: 55px;
-  font-family: Segoe UI;
-  color: #707070;
+  font-size: 50px;
+  font-family: Roboto-Regular;
+  color: white;
   position: absolute;
-  top: 380px;
+  top: 424px;
+  left: 548px;
+  text-align: left;
+  font: bolder;
+}
+
+
+#Pro {
+  font-size: 14px;
+  font-family: Roboto-Regular;
+  color: white;
+  font-style: Italic;
+  font-weight: lighter;
+  position: absolute;
+  top: 491px;
   left: 548px;
   text-align: left;
 }
+span {
+  color: #f9004d;
+}
+
+#uno {
+  position: absolute;
+  left: 250px;
+  top: 550px;
+  background: white;
+  border-radius: 20px;
+  background: none;
+}
+#uno:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+#dos {
+  position: absolute;
+  left: 330px;
+  top: 580px;
+  background: white;
+  border-radius: 20px;
+  background: none;
+}
+#dos:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#tres {
+  position: absolute;
+  left: 410px;
+  top: 550px;
+  background: white;
+  border-radius: 20px;
+  background: none;
+}
+#tres:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#Prepa {
+  width: 700px;
+  position: absolute;
+  top: 600px;
+  left: 548px;
+  font: 30px Roboto-Regula;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1px;
+}
+
+
 #TextoF h1 {
   font-weight: lighter;
   padding-bottom: 20px;
   color: #ffffff;
 }
 
-#Pro {
-  font-size: 34px;
-  font-family: Segoe UI;
-  color: #707070;
-  font-style: Italic;
-  font-weight: lighter;
-  position: absolute;
-  top: 453px;
-  left: 548px;
+#Ola {
   text-align: left;
+  position: absolute;
+  top: 533px;
+  left: 548px;
+  font-family: Roboto-Regular;
+  /* font: bolder; */
+  color: white;
 }
 
-#uno {
+/*  width: 1430px;
+  height: 400px; */
+#Part2 {
   position: absolute;
-  left: 250px;
-  top: 450px;
-  background: white;
-  border-radius: 30px;
-  background: none;
+  background: #03112b;
+  margin-top: 280px;
+  width: 1430px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
+  font-family: Roboto-Regular;
+  color: wheat;
 }
-#dos {
-  position: absolute;
-  left: 330px;
-  top: 450px;
-  background: white;
-  border-radius: 10px;
-  background: none;
+#Part2 h1 {
+  padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
 }
 
-#tres {
-  position: absolute;
-  left: 415px;
-  top: 450px;
-  background: white;
+#Part2 p {
+  padding-left: 34px;
+  font-size: 13px;
+}
+
+#Part2 h4 {
+  padding-left: 34px;
+  font-size: 21px;
+  /* border-left: 9px solid wheat; */
+  border-left: 9px solid #f9004d;
+}
+
+.Data {
+  padding-top: 10px;
+}
+
+/* width: 1430px;
+  height: 400px; */
+#Part3 {
+  background: #03112b;
+  margin-top: 600px;
+  width: 1430px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
+  font-family: Roboto-Regular;
+  color: wheat;
+}
+
+#Part3 h1 {
+  padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#Part3 p {
+  padding-left: 34px;
+  font-size: 13px;
+}
+
+#Part3 h4 {
+  padding-left: 34px;
+  font-size: 21px;
+  padding-bottom: 10px;
+  /* border-left: 9px solid wheat; */
+  border-left: 9px solid #f9004d;
+}
+/* Projetos */
+.service {
+  /* background: #101010; */
+  width: 100%;
+  padding: 100px 0px;
+  /* background-image: url(../images/imagem1.jpg); */
+}
+
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  /* background: #191919; */
+  background: #27273c;
+  border-radius: 50px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #f9004d;
+}
+h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
   border-radius: 30px;
-  background: none;
+  transition: 0.4s;
+}
+
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
 }
