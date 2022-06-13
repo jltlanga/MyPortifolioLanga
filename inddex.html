@@ -1,117 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MeuPortifolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="cabecalho">
-        <div class="container_grid header-flex">
-          <!--Container flex-->
-  
-          <!--flex items-->
+      <div class="container_grid header-flex">
+        <!--Container flex-->
+
+        <!--flex items-->
+        <img
+          class="logo"
+          src="images/foto_jlt.PNG"
+          title="Julito Logo"
+          alt="Imagem do Logo"
+        />
+
+        <nav class="menu">
+          <a href="#">Apresentação</a>
+          <a href="#">Formação</a>
+          <a href="#">Experiência</a>
+          <a href="#">Projetos</a>
+          <a href="#">Fale Conosco</a>
+        </nav>
+      </div>
+    </header>
+
+    <article id=" apresentacao">
+      <section id="apresent_1">
+        <div>
+          <img id="Banner" src="images/fundo2.jpg" alt="BannerTopo" />
           <img
-            class="logo"
+            id="profil"
             src="images/foto_jlt.PNG"
-            title="Julito Logo"
-            alt="Imagem do Logo"
+            alt="FotoPerfil"
+            width="250"
+            height="250"
           />
-  
-          <nav class="menu">
-             <a href="#">Apresentação</a>
-             <a href="#">Formação</a>
-             <a href="#">Experiência</a>
-             <a href="#">Projetos</a>
-             <a href="#">Fale Conosco</a>
-          </nav>
-        </div>
-      </header>
-
-
-      <article id=" apresentacao">
-        <section id="apresent_1">
-            <div>
-                <img id="Banner" src="images/fundo2.jpg" alt="BannerTopo">
-                <img id="profil" src="images/foto_jlt.PNG" alt="FotoPerfil" width="250" height="250">
-                <H1 id="name" >Julião Langa</H1>
-                <h3 id="res" >Engenheiro de energias, e estudante de <span>Fullstack Web Developer</span>, na Toti
-                    Diversidade</h3>
-            </div>
-            <div>
-            <a href="https://www.linkedin.com/injltlanga"><img id="li" src="images/Likendin.png" width="58" height="58" alt="meu linkedin"></a>
-          </div>
-            <div>
-            <a href="https://github.com/jltlanga"><img id="gui" src="images/Github.png" width="58" height="58" alt="meu repositório Git"></a>
-        </div>
-            <div>
-            <a href="http://lattes.cnpq.br/4829281090814004"><img id="faceb" src="images/lattes.jpeg" width="58" height="58" alt="meu repositório Git"></a>
-        </div>
-        </section>
-
-        <section>
-            <div id="greeting">
-                <h2>Breve apresentação</h2>
-            </div>
-            <div id="aboutMe">
-                <p>
-                    Sou estudante de Fullstak Web developer. Eu aprendo a desenvolver
-                    código limpos e acessível. Tornar o site mais e mais interativo com as animações
-                    do CSS. Além disso, aplico técnicas modernas de design responsivo para tornar website acessível
-                    a todos os usuários, independentemente de seu dispositivo.
-                  </p>
-
-            </div>
-        </section>
-      </article>
-
-      <article id="formacao">
-        <h1>Formação</h1>
-        <div>
-          <p class="tempo"> 2020-2022</p>
-          <h4>Mestrado em Planejamento e Operação de Sistemas Elétricos</h4>
-          <p>Universidade Federal de Itajubá - UNIFEI</p>
-        </div>
-
-        <div>
-          <p class="tempo">2014-2019</p>
-            <h4>Bacharel em Engenharia de Energias</h4>
-            <p>Universidade Federal de Integração Internacional da Lusofonia Afro-Brasileira - UNILAB</p>
+          <h1 id="name">Julião Langa</h1>
+          <h3 id="res">
+            Engenheiro de energias, e estudante de
+            <span>Fullstack Web Developer</span>, na Toti Diversidade
+          </h3>
         </div>
         <div>
-          <p class="tempo"> 2017-2019</p>
-          <h4>Técnico em Eletricidade Industrial</h4>
-          <p>Serviço Naciona de Aprendizagem Industrial - SENAI-Ce</p>
+          <a href="https://www.linkedin.com/injltlanga"
+            ><img
+              id="li"
+              src="images/Likendin.png"
+              width="58"
+              height="58"
+              alt="meu linkedin"
+          /></a>
         </div>
-      </article>
+        <div>
+          <a href="https://github.com/jltlanga"
+            ><img
+              id="gui"
+              src="images/Github.png"
+              width="58"
+              height="58"
+              alt="meu repositório Git"
+          /></a>
+        </div>
+        <div>
+          <a href="http://lattes.cnpq.br/4829281090814004"
+            ><img
+              id="faceb"
+              src="images/lattes.jpeg"
+              width="58"
+              height="58"
+              alt="meu repositório Git"
+          /></a>
+        </div>
+      </section>
 
-      <article id="experiencia">
-        <div>
-          <h1>Experiência</h1>
-          <p class="tempo">2020-</p>
-          <h4>Analista de Sistemas de Automação</h4>
-          <p>Vector Automação Industrial, SA</p>
+      <section>
+        <div id="greeting">
+          <h2>Breve apresentação</h2>
         </div>
-        <div>
-          <p class="tempo">2018-2019</p>
-          <h4>Estágio Supervisionado: Manutenção Elétrica Industrial</h4>
-          <p>Núcleo de Tecnologia e Qualidade Industrial do Ceará-Nutec</p>
+        <div id="aboutMe">
+          <p>
+            Sou estudante de Fullstak Web developer. Eu aprendo a desenvolver
+            código limpos e acessível. Tornar o site mais e mais interativo com
+            as animações do CSS. Além disso, aplico técnicas modernas de design
+            responsivo para tornar website acessível a todos os usuários,
+            independentemente de seu dispositivo.
+          </p>
         </div>
-        <div>
-          <p class="tempo">2017-2019</p>
-          <h4>Pesquisador Jr. Bolsista</h4>
-          <p>Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico - FUNCAP </p>
-        </div>
-      </article>
+      </section>
+    </article>
 
-      <article>
+    <article id="formacao">
+      <h1>Formação</h1>
+      <div>
+        <p class="tempo">2020-2022</p>
+        <h4>Mestrado em Planejamento e Operação de Sistemas Elétricos</h4>
+        <p>Universidade Federal de Itajubá - UNIFEI</p>
+      </div>
+
+      <div>
+        <p class="tempo">2014-2019</p>
+        <h4>Bacharel em Engenharia de Energias</h4>
+        <p>
+          Universidade Federal de Integração Internacional da Lusofonia
+          Afro-Brasileira - UNILAB
+        </p>
+      </div>
+      <div>
+        <p class="tempo">2017-2019</p>
+        <h4>Técnico em Eletricidade Industrial</h4>
+        <p>Serviço Naciona de Aprendizagem Industrial - SENAI-Ce</p>
+      </div>
+    </article>
+
+    <article id="experiencia">
+      <div>
+        <h1>Experiência</h1>
+        <p class="tempo">2020-</p>
+        <h4>Analista de Sistemas de Automação</h4>
+        <p>Vector Automação Industrial, SA</p>
+      </div>
+      <div>
+        <p class="tempo">2018-2019</p>
+        <h4>Estágio Supervisionado: Manutenção Elétrica Industrial</h4>
+        <p>Núcleo de Tecnologia e Qualidade Industrial do Ceará-Nutec</p>
+      </div>
+      <div>
+        <p class="tempo">2017-2019</p>
+        <h4>Pesquisador Jr. Bolsista</h4>
+        <p>
+          Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico
+          - FUNCAP
+        </p>
+      </div>
+    </article>
+
+    <article>
       <div class="service">
         <div class="title">
           <h2>Projetos</h2>
         </div>
-  
+
         <div class="box">
           <div class="card">
             <i class="fas fa-bars"></i>
@@ -119,42 +153,26 @@
             <div class="meusproj">
               <p>
                 Um website deve ser desenvolvido com dois principais objetivos,
-                primeiro, ele precisa funcionar em todos os dispositivos. Segundo,
-                ele precisa ser rápido e eficiente..
+                primeiro, ele precisa funcionar em todos os dispositivos.
+                Segundo, ele precisa ser rápido e eficiente..
               </p>
-  
+
               <p style="text-align: center">
                 <a class="button" href="#">Saiba Mais</a>
               </p>
             </div>
           </div>
-  
+
           <div class="card">
             <i class="far fa-user"></i>
             <h5>Desenvolvedor web</h5>
             <div class="meusproj">
               <p>
                 Um website deve ser desenvolvido com dois principais objetivos,
-                primeiro, ele precisa funcionar em todos os dispositivos. Segundo,
-                ele precisa ser rápido e eficiente..
+                primeiro, ele precisa funcionar em todos os dispositivos.
+                Segundo, ele precisa ser rápido e eficiente..
               </p>
-  
-              <p style="text-align: center">
-                <a class="button" href="#">Saiba Mais</a>
-              </p>
-            </div>
-          </div>
-  
-          <div class="card">
-            <i class="far fa-bell"></i>
-            <h5>Desenvolvedor web</h5>
-            <div class="meusproj">
-              <p>
-                Um website deve ser desenvolvido com dois principais objetivos,
-                primeiro, ele precisa funcionar em todos os dispositivos. Segundo,
-                ele precisa ser rápido e eficiente.
-              </p>
-  
+
               <p style="text-align: center">
                 <a class="button" href="#">Saiba Mais</a>
               </p>
@@ -167,10 +185,26 @@
             <div class="meusproj">
               <p>
                 Um website deve ser desenvolvido com dois principais objetivos,
-                primeiro, ele precisa funcionar em todos os dispositivos. Segundo,
-                ele precisa ser rápido e eficiente.
+                primeiro, ele precisa funcionar em todos os dispositivos.
+                Segundo, ele precisa ser rápido e eficiente.
               </p>
-  
+
+              <p style="text-align: center">
+                <a class="button" href="#">Saiba Mais</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="far fa-bell"></i>
+            <h5>Desenvolvedor web</h5>
+            <div class="meusproj">
+              <p>
+                Um website deve ser desenvolvido com dois principais objetivos,
+                primeiro, ele precisa funcionar em todos os dispositivos.
+                Segundo, ele precisa ser rápido e eficiente.
+              </p>
+
               <p style="text-align: center">
                 <a class="button" href="#">Saiba Mais</a>
               </p>
@@ -178,44 +212,63 @@
           </div>
         </div>
       </div>
-
     </article>
 
     <article id="rodape">
       <div class="rodape_1">
         <h1>Fale Conosco</h1>
         <p>Deseja saber mais sobre mim?</p>
-          <p>
-            Faça seu cadastro no campo ao lado, e entrar em contato em até dois dias corridos.
-          </p>
+        <p>
+          Faça seu cadastro no campo ao lado, e entrar em contato em até dois
+          dias corridos.
+        </p>
 
-          <div>
-
-        <p>Você pode igualmente me contatar pelas minhas redes socias:</p>
         <div>
-          <a href="https://www.facebook.com/julito.langa"><img id="fcbk" src="images/Face.webp" width="58" height="58" alt="meu face"></a>
-        
-        <a href="https://www.instagram.com/jltlanga/"><img id="inst" src="images/Instagram.png" width="58" height="58" alt="Meu insta"></a>
-      
-        <a href="https://wa.me/5535998310892?text=Obrigado+pelo+contato%2C+deixa+sua+mensagem%2C+em+breve+entrarei+em+contato"><img id="wats"  src="images/WhatsApp.png" width="58" height="58" alt="Meu whats"></a>
-      </div>
-      </div>
+          <p>Você pode igualmente me contatar pelas minhas redes socias:</p>
+          <div>
+            <a href="https://www.facebook.com/julito.langa"
+              ><img
+                id="fcbk"
+                src="images/Face.webp"
+                width="58"
+                height="58"
+                alt="meu face"
+            /></a>
+
+            <a href="https://www.instagram.com/jltlanga/"
+              ><img
+                id="inst"
+                src="images/Instagram.png"
+                width="58"
+                height="58"
+                alt="Meu insta"
+            /></a>
+
+            <a
+              href="https://wa.me/5535998310892?text=Obrigado+pelo+contato%2C+deixa+sua+mensagem%2C+em+breve+entrarei+em+contato"
+              ><img
+                id="wats"
+                src="images/WhatsApp.png"
+                width="58"
+                height="58"
+                alt="Meu whats"
+            /></a>
+          </div>
+        </div>
       </div>
 
       <div id="formul">
         <h4>E-mail</h4>
-        <input type="text">
+        <input type="text" />
         <h4>Nome</h4>
-        <input type="text">
+        <input type="text" />
         <h4>Asunto</h4>
-        <input type="text">
+        <input type="text" />
         <h4>Mensagem</h4>
-        <input id="msg" type="text">
-       
-          <a href="#" class="btn">Enviar mensagem</a>
-       
+        <input id="msg" type="text" />
+
+        <a href="#" class="btn">Enviar mensagem</a>
       </div>
-      
     </article>
-</body>
+  </body>
 </html>

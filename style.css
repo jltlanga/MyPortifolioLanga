@@ -394,7 +394,12 @@ h5 {
   border: 2px solid #f9004d;
   cursor: pointer;
 }
-
+#rodape {
+  display: flex;
+  padding-left: 150px;
+  font-family: Roboto-Regular;
+  background: #03112B;
+}
 .rodape_1 {
   width: 398px;
   padding-top: 40px;
@@ -406,12 +411,7 @@ h5 {
   color: white;
 }
 
-#rodape {
-  display: flex;
-  padding-left: 150px;
-  font-family: Roboto-Regular;
-  background: #03112B;
-}
+
 .rodape_1 img {
   margin-left: 40px;
   margin-top: 40px;
