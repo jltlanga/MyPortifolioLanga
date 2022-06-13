@@ -1,0 +1,154 @@
+/* Importa as fontes da google fontes*/
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "OpenSans_Condensed-Regular";
+  src: url(../fonts/Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: "TitilliumWeb-Bold";
+  src: url(../fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/*Reset da página  */
+/*seletor universal: pega todas tags do html*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto-Regular;
+}
+
+/* Inicio de cabeçalho */
+
+.container_grid {
+  max-width: 1200px;
+  /* border: 3px solid salmon; */
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header-flex {
+  /*flex-xontainer */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* align-items: center; */
+  height: 85px;
+}
+
+header {
+  background-color: #1e1c21;
+}
+header .logo {
+  /* border: 1px solid red; */
+  /* width: 280px; */
+  top: 30px;
+  width: 70px;
+  height: 70px;
+  /* left: 563px; */
+  border-radius: 80%;
+  opacity: 100%;
+}
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+header .menu a {
+  font-family: "Roboto-Light";
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav {
+  display: flex;
+  padding-right: 40px;
+}
+
+#Part1 {
+  background: white;
+  margin-bottom: 3px;
+}
+
+#Principal {
+  display: flex;
+}
+
+#Banner {
+  width: 1430px;
+  height: 400px;
+}
+#Perfil {
+  position: relative;
+  bottom: 140px;
+  left: 235px;
+}
+
+#Nombre {
+  font-size: 55px;
+  font-family: Segoe UI;
+  color: #707070;
+  position: absolute;
+  top: 380px;
+  left: 548px;
+  text-align: left;
+}
+#TextoF h1 {
+  font-weight: lighter;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+#Pro {
+  font-size: 34px;
+  font-family: Segoe UI;
+  color: #707070;
+  font-style: Italic;
+  font-weight: lighter;
+  position: absolute;
+  top: 453px;
+  left: 548px;
+  text-align: left;
+}
+
+#uno {
+  position: absolute;
+  left: 250px;
+  top: 450px;
+  background: white;
+  border-radius: 30px;
+  background: none;
+}
+#dos {
+  position: absolute;
+  left: 330px;
+  top: 450px;
+  background: white;
+  border-radius: 10px;
+  background: none;
+}
+
+#tres {
+  position: absolute;
+  left: 415px;
+  top: 450px;
+  background: white;
+  border-radius: 30px;
+  background: none;
+}
