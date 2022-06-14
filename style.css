@@ -28,7 +28,7 @@
 
 body {
   font-family: Roboto-Regular;
-  background-color: #353B5D;
+  background-color: #353b5d;
 }
 
 /* Inicio de cabeçalho */
@@ -49,7 +49,8 @@ body {
 }
 
 header {
-  background-color: #03112B;
+  background-color: #03112b;
+  width: 1520px;
 
   /* background-color: #1e1c21; */
 }
@@ -94,7 +95,6 @@ header nav {
   padding-right: 40px;
 }
 
-
 #apresentacao {
   background: white;
   margin-bottom: 3px;
@@ -131,7 +131,6 @@ header nav {
   text-align: left;
   font: bolder;
 }
-
 
 #res {
   font-size: 14px;
@@ -210,7 +209,6 @@ span {
   opacity: 1px;
 }
 
-
 #rodape_1 h1 {
   font-weight: lighter;
   padding-bottom: 20px;
@@ -229,7 +227,7 @@ span {
 
 #formacao {
   position: absolute;
-  background: #27273C;
+  background: #27273c;
   margin-top: 280px;
   width: 1520px;
   padding-bottom: 50px;
@@ -261,13 +259,13 @@ span {
 }
 
 #experiencia {
-  background: #27273C;
+  background: #27273c;
   margin-top: 600px;
   width: 1520px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-left: 150px;
-  font-family:  Roboto-Regular;
+  font-family: Roboto-Regular;
   color: white;
 }
 
@@ -278,7 +276,7 @@ span {
 }
 
 #experiencia p {
-   padding-left: 34px;
+  padding-left: 34px;
   font-size: 13px;
   color: #fcfc;
 }
@@ -311,8 +309,6 @@ span {
   align-items: center;
   min-height: 400px;
 }
-
-
 
 .card {
   height: 325px;
@@ -371,7 +367,8 @@ h5 {
   display: flex;
   padding-left: 150px;
   font-family: Roboto-Regular;
-  background: #03112B;
+  background: #03112b;
+  width: 1520px;
 }
 .rodape_1 {
   width: 398px;
@@ -384,35 +381,31 @@ h5 {
   color: white;
 }
 
-
 .rodape_1 img {
   margin-left: 40px;
   margin-top: 40px;
 }
-.rodape_1 #fcbk:hover{
+.rodape_1 #fcbk:hover {
   background-color: transparent;
-  border: 1px solid #1977F3;
+  border: 1px solid #1977f3;
   cursor: pointer;
   transition: 0.7s;
   border-radius: 90%;
-
 }
-.rodape_1 #inst:hover{
+.rodape_1 #inst:hover {
   background-color: transparent;
   border: 1px solid #f9004d;
   cursor: pointer;
   transition: 0.7s;
   border-radius: 90%;
-
 }
-.rodape_1 #wats:hover{
+.rodape_1 #wats:hover {
   background-color: transparent;
   border: 1px solid #f9004d;
   cursor: pointer;
   transition: 0.7s;
   border-radius: 90%;
   box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
-
 }
 
 #formul {
@@ -422,13 +415,13 @@ h5 {
 
 .rodape_1 h1 {
   font-weight: lighter;
-  padding-bottom:  10px;
+  padding-bottom: 10px;
   color: white;
 }
 
 #formul h4 {
   font-size: 13px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 10px;
 }
 
@@ -460,36 +453,25 @@ h5 {
 }
 
 /* BREAKPOINTS */
-    /* Desktop */
+/* Desktop */
 
-    @media screen and (min-width: 992px) {
-      .container_grid{
-          /* max-width: 900px;
+@media screen and (min-width: 992px) {
+  .container_grid {
+    /* max-width: 900px;
           margin: 0 auto; */
-          /* border: 1px solid sienna; */
-      }
-   
-
-      
+    /* border: 1px solid sienna; */
   }
-  
-  /* BREAKPOINTS */
-  /* Notebooks ou telas largas */
+}
 
-  @media screen and (min-width: 1200px) {
-      body{
-       
-      }
-      
+/* BREAKPOINTS */
+/* Notebooks ou telas largas */
 
-      
+@media screen and (min-width: 1200px) {
+  body {
   }
+}
 
-  /* BREAKPOINTS */
-  /* Telas full hd (1920px)*/
-  @media screen and (min-width: 1440px) {
-      
-
-      
-  }
-
+/* BREAKPOINTS */
+/* Telas full hd (1920px)*/
+@media screen and (min-width: 1440px) {
+}
