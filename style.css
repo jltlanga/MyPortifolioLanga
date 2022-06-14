@@ -116,7 +116,7 @@ header nav {
 }
 
 #Banner {
-  width: 1430px;
+  width: 1520px;
   height: 400px;
 }
 #profil {
@@ -250,7 +250,7 @@ span {
   position: absolute;
   background: #27273C;
   margin-top: 280px;
-  width: 1430px;
+  width: 1520px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-left: 150px;
@@ -285,7 +285,7 @@ span {
 #experiencia {
   background: #27273C;
   margin-top: 600px;
-  width: 1430px;
+  width: 1520px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-left: 150px;
@@ -438,6 +438,7 @@ h5 {
   cursor: pointer;
   transition: 0.7s;
   border-radius: 90%;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
 
 }
 
@@ -491,17 +492,17 @@ h5 {
 
     @media screen and (min-width: 992px) {
       .container_grid{
-          max-width: 900px;
-          margin: 0 auto;
+          /* max-width: 900px;
+          margin: 0 auto; */
           /* border: 1px solid sienna; */
       }
-      h1{
+      /* h1{
           font-size: 24px;
 
       }
       p{
           font-size: 16px;
-      }
+      } */
 
       
   }
@@ -511,7 +512,7 @@ h5 {
 
   @media screen and (min-width: 1200px) {
       body{
-          /* background-color: sienna; */
+        /* width: max-content; */
       }
       
 
