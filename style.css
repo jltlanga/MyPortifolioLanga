@@ -35,7 +35,6 @@ body {
 
 .container_grid {
   max-width: 1200px;
-  /* border: 3px solid salmon; */
   margin: 0 auto;
 }
 
@@ -47,7 +46,6 @@ body {
   align-items: center;
   align-items: center;
   height: 85px;
-  /* width: 100%; */
 }
 
 header {
@@ -56,22 +54,17 @@ header {
   /* background-color: #1e1c21; */
 }
 header .logo {
-  /* border: 1px solid red; */
-  /* width: 280px; */
   top: 30px;
   width: 50px;
   height: 50px;
-  /* left: 563px; */
   border-radius: 80%;
   opacity: 90%;
 }
 
 header .logo:hover {
   background-color: transparent;
-  /* border: 1px solid #f9f5f6; */
   border: 0.5px solid #fcfc;
   cursor: pointer;
-  /* transition: 0.7s; */
   transition: transform 0.4s;
 }
 header .menu {
@@ -80,7 +73,6 @@ header .menu {
   align-items: center;
   width: 60%;
   height: 100%;
-  /* border: 1px solid white; */
 }
 
 header .menu a {
@@ -92,10 +84,7 @@ header .menu a {
 
 header .menu a:hover {
   background-color: transparent;
-  /* border: 1px solid #f9f5f6; */
-  /* border: 0.5px solid wheat; */
   cursor: pointer;
-  /* transition: 0.5s; */
   color: #f9004d;
   transition: 0.5s;
 }
@@ -127,7 +116,6 @@ header nav {
 }
 #profil:hover {
   background-color: transparent;
-  /* border: 1px solid #f9f5f6; */
   border: 2px solid wheat;
   cursor: pointer;
   transition: 0.7s;
@@ -172,9 +160,7 @@ span {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
-  /* background-color: transparent; */
   border: 1px solid #f9004d;
-  /* cursor: pointer; */
   transition: 0.7s;
   border-radius: 90%;
 }
@@ -190,9 +176,7 @@ span {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
-  /* background-color: transparent; */
   border: 1px solid #f9004d;
-  /* cursor: pointer; */
   transition: 0.7s;
   border-radius: 90%;
 }
@@ -209,7 +193,6 @@ span {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
-  /* background-color: transparent; */
   border: 1px solid #f9004d;
   /* cursor: pointer; */
   transition: 0.7s;
@@ -244,8 +227,6 @@ span {
   color: white;
 }
 
-/*  width: 1430px;
-  height: 400px; */
 #formacao {
   position: absolute;
   background: #27273C;
@@ -272,7 +253,6 @@ span {
 #formacao h4 {
   padding-left: 34px;
   font-size: 21px;
-  /* border-left: 9px solid wheat; */
   border-left: 9px solid #f9004d;
 }
 
@@ -280,8 +260,6 @@ span {
   padding-top: 10px;
 }
 
-/* width: 1430px;
-  height: 400px; */
 #experiencia {
   background: #27273C;
   margin-top: 600px;
@@ -317,7 +295,6 @@ span {
   /* background: #101010; */
   width: 100%;
   padding: 100px 0px;
-  /* background-image: url(../images/imagem1.jpg); */
 }
 
 .title h2 {
@@ -341,7 +318,6 @@ span {
   height: 325px;
   width: 335px;
   padding: 20px 35px;
-  /* background: #191919; */
   background: #27273c;
   border-radius: 50px;
   margin: 15px;
@@ -351,9 +327,7 @@ span {
 }
 
 .box .card:hover {
-  /* background-color:transparent; */
   border: 1px solid #f9004d;
-  /* border: 0.5px solid wheat; */
   cursor: pointer;
   color: #27273c;
   transition: 0.4s;
@@ -373,7 +347,6 @@ h5 {
 }
 .meusproj p {
   color: #fcfc;
-  /* color: #FFFFFF; */
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
@@ -461,7 +434,7 @@ h5 {
 
 #formul input {
   width: 398px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 #msg {
@@ -476,7 +449,6 @@ h5 {
   font-weight: bold;
   padding: 10px 25px;
   border-radius: 30px;
- /* top:inherit; */
   transition: transform 0.4s;
 }
 
@@ -496,13 +468,7 @@ h5 {
           margin: 0 auto; */
           /* border: 1px solid sienna; */
       }
-      /* h1{
-          font-size: 24px;
-
-      }
-      p{
-          font-size: 16px;
-      } */
+   
 
       
   }
@@ -512,7 +478,7 @@ h5 {
 
   @media screen and (min-width: 1200px) {
       body{
-        /* width: max-content; */
+       
       }
       
 
