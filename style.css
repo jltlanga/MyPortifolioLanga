@@ -284,7 +284,7 @@ span {
 #experiencia h4 {
   padding-left: 34px;
   font-size: 21px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   /* border-left: 9px solid wheat; */
   border-left: 9px solid #f9004d;
 }
