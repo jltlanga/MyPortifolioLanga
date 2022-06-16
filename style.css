@@ -443,6 +443,16 @@ h5 {
   padding: 10px 25px;
   border-radius: 30px;
   transition: transform 0.4s;
+  
+}
+#bt {
+  /* position: relative;
+  bottom: 0px;
+  right: 550px;
+  font-size: 18px; */
+  /* clear: both; */
+
+ 
 }
 
 .btn:hover {
