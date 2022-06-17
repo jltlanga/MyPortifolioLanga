@@ -228,7 +228,7 @@ span {
 #formacao {
   position: absolute;
   background: #27273c;
-  margin-top: 280px;
+  margin-top: 150px;
   width: 1520px;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -260,10 +260,10 @@ span {
 
 #experiencia {
   background: #27273c;
-  margin-top: 600px;
+  margin-top: 410px;
   width: 1520px;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-left: 150px;
   font-family: Roboto-Regular;
   color: white;
@@ -301,6 +301,7 @@ span {
   width: 1130px;
   margin: 30px auto;
   text-align: center;
+  margin-top: 20px;
 }
 
 .box {
@@ -410,7 +411,7 @@ h5 {
 
 #formul {
   padding-left: 50px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .rodape_1 h1 {
@@ -431,7 +432,7 @@ h5 {
 }
 
 #msg {
-  height: 133px;
+  height: 150px;
   border-radius: 10px;
 }
 .btn {
@@ -440,19 +441,16 @@ h5 {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 10px 25px;
+  padding: 10px;
   border-radius: 30px;
   transition: transform 0.4s;
+  margin-top: 20px;
   
 }
-#bt {
-  /* position: relative;
-  bottom: 0px;
-  right: 550px;
-  font-size: 18px; */
-  /* clear: both; */
+#bt{
+  margin-top: 10px;
+  padding: 9px 12px;
 
- 
 }
 
 .btn:hover {
@@ -460,28 +458,4 @@ h5 {
   background-color: transparent;
   border: 2px solid #f9004d;
   cursor: pointer;
-}
-
-/* BREAKPOINTS */
-/* Desktop */
-
-@media screen and (min-width: 992px) {
-  .container_grid {
-    /* max-width: 900px;
-          margin: 0 auto; */
-    /* border: 1px solid sienna; */
-  }
-}
-
-/* BREAKPOINTS */
-/* Notebooks ou telas largas */
-
-@media screen and (min-width: 1200px) {
-  body {
-  }
-}
-
-/* BREAKPOINTS */
-/* Telas full hd (1920px)*/
-@media screen and (min-width: 1440px) {
 }
