@@ -35,14 +35,15 @@ body {
 /* Inicio de cabeçalho */
 
 .container_grid {
-  width: cover;
-  max-width: 1520px;
+  width: 1520px;
+  max-width: cover;
   margin: 0 auto;
 }
 
 /* Cabeçalho */
 .header-flex {
   /*flex-container */
+  width: 1520px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,6 +117,7 @@ header nav {
   bottom: 140px;
   left: 235px;
   border-radius: 70%;
+  
 }
 #profil:hover {
   background-color: transparent;
@@ -294,7 +296,7 @@ span {
 /* Projetos */
 .service {
   /* background: #101010; */
-  width: 100%;
+  width: 1520px;
   padding: 100px 0px;
 }
 
